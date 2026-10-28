@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * main - Programmer est comme construire un puzzle multilingue
+ * Programmer est comme construire un puzzle multilingue
  *
- * FIXE:main-
+ * main - Début de l'exécution
  *
- * Return: 0 (success)
+ * return: 0 (success)
  *
- * FIXE
+ * 
  */
 int main(void)
 {

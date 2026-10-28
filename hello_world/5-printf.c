@@ -1,13 +1,12 @@
-#include <stdio.hi>
+#include <stdio.h>
+
 /**
- *int main(void) - sert de point d'entrée au programme
+ * main - sert de point d'entrée au programme
  *
- *Description: affiche la phrase avec printf
- *
- *Return: retourne la valeur 0 (succès)
+ * Return: 0retourne la valeur  (succès)
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
