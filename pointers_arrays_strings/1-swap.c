@@ -7,7 +7,7 @@
  *
  * Return: 0
  */
-i
+
 void swap_int(int *a, int *b)
 {
 	int temp = *a;
