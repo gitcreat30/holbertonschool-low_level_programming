@@ -5,7 +5,7 @@
  *@argc: nombre d'arguments
  *@argv: tableau de chaine de caractère
  *
- * Return:
+ *Return:
 */
 int main(int argc __attribute__((unused)), char *argv[])
 {
