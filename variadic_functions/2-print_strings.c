@@ -6,7 +6,7 @@
  * @separator: séparation entre les chaînes de caractères
  * @n: nombre d'arguments
  *
- * */
+ */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list args;
