@@ -4,7 +4,7 @@
 /**
  * print_numbers - fonction qui affiche des nombres
  * @separator: chaîne de caractères entre les nombres
- * @n: nombres d'arguments
+ * @n: nombre d'arguments
  *
  * Return: somme
  */
