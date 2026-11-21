@@ -1,19 +1,26 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- *main - nombre d'arguments passés
+ *main - affiche le résultat de la multiplication
  *@argc: nombre d'argument reçu
- *@argv: tableau de chaine de caractère
+ *@argv: tableau de chaines de caractère
  *
- *Return: toujours 0
+ *Return: 0 en cas succès et 1 en cas d'erreur
  */
 int main(int argc, char *argv[])
-{
-	int i;
 
-	for (i = 0; i < argc; i++)
+{
+	int a, b, c;
+
+	if (argc != 3)
 	{
-		printf("%s\n", argv[i]);
+		printf("Error\n");
+		return (1);
 	}
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	c = a * b;
+	printf("%d\n", c);
 	return (0);
 }
